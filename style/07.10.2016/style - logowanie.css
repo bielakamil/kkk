@@ -1,0 +1,331 @@
+/* STANDARDOWE STYLE */
+
+
+    body {
+    background-color: #5fafe4;
+        
+    }
+
+    #logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+@font-face {
+    font-family: "Quark Bold";
+    src: url("Quark/Quark-Bold.otf");
+}
+@font-face {
+    font-family: "Quark Light";
+    src: url("Quark/Quark-Light.otf");
+}
+
+@font-face {
+    font-family: "Pacifico";
+    src: url("Pacifico.ttf");
+}
+
+
+
+/* DLA ROZDZIELCZOŚĆI 720x1280 */
+
+@media only screen and (min-width: 480px)
+{
+  
+    
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}    
+    
+    
+ #logo {
+        width: 400px;
+        height: 400px;
+        margin-top: 10%;
+    }    
+
+#logowanie {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        width: 90%;
+        text-align: center;
+    }
+
+    #logowanie > form > input, #logowanie > form > select  {
+        width: 95%;
+        font-size: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #5fafe4;
+        border: 0;
+        margin-top: 20px;
+        color: #ffffff;
+        border-bottom: 1px #ffffff solid;
+    }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+    
+
+    #logowanie > form > input[type="submit"] {
+        width: 97%;
+        background-color: #7dbde9;
+        color: #B5DAF3;
+        border: 0;
+        margin-bottom: 10px;
+        margin-top: 50px;
+        font-family: "Quark Bold";
+    }
+
+    #logowanie > form > u  {
+        margin-top: 25px;
+        display: block;
+        color: #5c5c5c;
+        font-size: 30px;
+        letter-spacing: 1px;
+        text-decoration: none;
+    }
+
+    #logowanie > form > u > a {
+        color: #ffffff;
+        text-decoration: none;
+        font-family: "Quark Light";
+    }
+
+    #logowanie > form > span {
+        display: block;
+        color: red;
+        font-size: 22px;
+        margin-top: 40px;
+    }
+
+
+    
+    #logowanie > form > input[class="reset_password"] {
+        width: 97%;
+        background-color: #7dbde9;
+        color: #B5DAF3;
+        border: 0;
+        margin-bottom: 10px;
+    }    
+    
+} /* ====================================================================== */
+
+/* DLA ROZDZIELOCZOŚCI 1600x900 */
+
+@media all and (min-width: 1400px)
+{
+    
+    ::-webkit-input-placeholder {
+   color: #767676;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #767676;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #767676;  
+}
+
+:-ms-input-placeholder {  
+   color: #767676;  
+}    
+    
+   #logo {
+        width: 200px;
+        height: 200px;
+        margin-top: 5%;
+    }    
+
+    #logowanie {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        width: 30%;
+        background-color: #ffffff;
+        text-align: center;
+        border-radius: 7px;
+        border: 10px solid #6eb4e5;
+    }
+
+    #logowanie > form > input, #logowanie > form > select  {
+        width: 85%;
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        border: 2px solid #e5e5e5;
+        margin-top: 20px;   
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    #logowanie > form > input[type="submit"] {
+        width: 20%;
+        background-color: #7dbde9;
+        color: #ffffff;
+        border: 0;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        margin-left: -130px;
+        margin-top: 20px;
+    }
+
+    #logowanie > form > u  {
+        float: right;
+        margin-top: 20px;
+        margin-right: 30px;
+        color: #5c5c5c;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    #logowanie > form > u > a {
+        color: #5c5c5c;
+    }
+
+    #logowanie > form > span {
+        display: block;
+        color: red;
+        font-size: 16px;
+    }
+
+    #logowanie > form > input[class="reset_password"] {
+        width: 85%;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 2px solid #e5e5e5;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+#logowanie > form > input:focus
+    {
+        border: 2px solid #e5e5e5;
+    }    
+
+} /* ====================================================================== */
+
+/* DLA ROZDZIELOCZOŚCI 1600x900 */
+
+@media all and (min-width: 1000px)
+{
+    
+    ::-webkit-input-placeholder {
+   color: #767676;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #767676;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #767676;  
+}
+
+:-ms-input-placeholder {  
+   color: #767676;  
+}    
+    
+   #logo {
+        width: 300px;
+        height: 300px;
+        margin-top: 5%;
+    }    
+
+    #logowanie {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        width: 40%;
+        background-color: #ffffff;
+        text-align: center;
+        border-radius: 7px;
+        border: 10px solid #6eb4e5;
+    }
+
+    #logowanie > form > input, #logowanie > form > select  {
+        width: 85%;
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        border: 2px solid #e5e5e5;
+        margin-top: 20px;   
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    #logowanie > form > input[type="submit"] {
+        width: 20%;
+        background-color: #7dbde9;
+        color: #ffffff;
+        border: 0;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        margin-left: -140px;
+        margin-top: 20px;
+    }
+
+    #logowanie > form > u  {
+        float: right;
+        margin-top: 20px;
+        margin-right: 40px;
+        color: #5c5c5c;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    #logowanie > form > u > a {
+        color: #5c5c5c;
+    }
+
+    #logowanie > form > span {
+        display: block;
+        color: red;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #logowanie > form > input[class="reset_password"] {
+        width: 85%;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 2px solid #e5e5e5;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+#logowanie > form > input:focus
+    {
+        border: 2px solid #e5e5e5;
+    }    
+
+} /* ====================================================================== */

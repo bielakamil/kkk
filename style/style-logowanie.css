@@ -1,0 +1,264 @@
+body
+{
+    
+}
+
+.container-fluid
+{
+    min-height: 100vh;
+    background-image: url('../img/blur_background_pink_orange_light_73376_2560x1024.jpg');
+    background-size: 150% 120%;
+}
+
+.logo
+{
+    margin-top: 10%;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.logo > a 
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.error
+{
+    margin-bottom: -20px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+
+.input 
+{
+    margin-top: 40px;
+}
+
+.input > a
+{
+    text-decoration: none;
+}
+
+h4
+{
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+input, select
+{
+color: #777;    
+background-color: rgba(180,180,180,.9) !important;  
+margin-top: 20px;
+padding-left: 35px !important;
+padding-top: 10px !important;
+padding-bottom: 10px !important;
+}
+
+
+
+
+button
+{
+margin-top: 30px;
+background-color: #5fafe4 !important;
+}
+
+button:hover
+{
+    background-color: #6eb4e5 !important;   
+}
+
+
+
+.reset > a
+{
+    color: #fff;
+    
+}
+
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon, .inner-addon .fa {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon, .left-addon .fa  { left:  0px;}
+.right-addon .glyphicon, .right-addon .fa { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+
+
+
+
+
+
+
+  /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) and (max-width:480px) {
+
+        
+    h1
+        {
+            font-size: 90px;
+        }
+        
+    .error
+        {
+            font-size: 40px;
+        }    
+        
+    input,button, select
+        {
+            height: auto !important;
+            font-size: 40px !important;
+            margin-top: 50px;
+        }   
+        
+    .glyphicon, .fa
+        {
+            font-size: 60px !important;
+        }    
+        
+    input, select
+        {
+            padding-left: 90px !important;
+        }    
+        
+    h4
+    {
+        color: #fff;
+        margin-top: 70px;
+        font-size: 35px;
+        margin-bottom: 50px;
+    }     
+        
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) and (max-width: 768px) {
+
+    h1
+        {
+            font-size: 90px;
+        }    
+
+    .error
+        {
+            font-size: 40px;
+        }
+        
+    input,button, select
+        {
+            height: auto !important;
+            font-size: 40px !important;
+            margin-top: 50px;
+        }    
+        
+    .glyphicon, .fa
+        {
+            font-size: 60px !important;
+        }    
+        
+    input, select
+        {
+            padding-left: 90px !important;
+        }
+        
+        h4
+    {
+        color: #fff;
+        margin-top: 70px;
+        font-size: 35px;
+    }     
+        
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) and (max-width:992px) {
+
+    h1
+        {
+            font-size: 90px;
+        }
+        
+    .error
+        {
+            font-size: 40px;
+        }
+        
+    input,button, select
+        {
+            height: auto !important;
+            font-size: 40px !important;
+            margin-top: 50px;
+        }
+        
+    .reset
+        {
+            font-size: 30px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        
+    .glyphicon, .fa
+        {
+            font-size: 60px !important;
+        }
+        
+    input, select
+        {
+            padding-left: 90px !important;
+        }   
+        
+    h4
+    {
+        color: #fff;
+        margin-top: 70px;
+        font-size: 35px;
+    }    
+        
+        
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) and (max-width:1200px) {
+-height: 100vh;
+        }
+        
+
+        
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+        
+
+        
+        
+    }
+
+
+
+
+
+

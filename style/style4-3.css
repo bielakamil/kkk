@@ -1,0 +1,1584 @@
+
+@media (max-width: 1366px) and (min-width:1200px)
+{
+   @font-face {
+    font-family: "Quark Bold";
+    src: url("Quark/Quark-Bold.otf");
+}
+@font-face {
+    font-family: "Quark Light";
+    src: url("Quark/Quark-Light.otf");
+}
+
+@font-face {
+    font-family: "Pacifico";
+    src: url("Pacifico.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Quark Bold";
+    font-size: 62.5%;
+
+}
+
+#top > i
+    {
+        display: none;
+    }
+
+
+nav {
+    width: 21%;
+    min-height: 100%;
+    background-color: #34495e;
+    float: left;
+}
+
+nav > #logo {
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-family: Pacifico;
+    font-size: 2em;
+    color: #98a2ad;
+    margin-left: 30px;
+}
+    
+nav > #hamburger{
+    display: none;        
+    }        
+
+nav > #logo > a 
+{
+    color: #98a2ad;
+    text-decoration: none;
+}
+
+
+nav > li > a {
+    color: #98a2ad;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+nav > li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #98a2ad;
+    list-style: none;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+
+nav > li > a > i {
+    padding-right: 10px
+}
+
+nav > li > ol {
+    font-size: 1.5em;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    display: none;
+    color: #98a2ad;
+}
+
+nav > li > ol > a {
+    color: #98a2ad;
+    text-decoration: none;
+    font-family: Quark Light;
+}
+
+nav > li:hover > ol, nav > li:focus > ol {
+    display: block;
+}
+
+nav > li:hover, nav > li:focus  {
+    background-color: #2d3e50;
+    border-left: 5px #5faee3 solid;
+}
+
+nav > #hamburger {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+}
+
+header {
+    width: 79%;
+    background-color: #eeeeee;
+    float: right;
+    min-height: 100%;
+}
+
+#top {
+    width: 100%;
+    height: 6%;
+    background-color: #ffffff;
+    border-bottom: 1px #c6cbcf solid;
+}
+
+#top > #search
+{  
+position: absolute;
+display: flex;
+margin-top: 15px;
+margin-left: 30px;
+color: #34495e;
+cursor: pointer;
+float: left;
+}
+
+#top > #search-input
+{
+position: absolute;
+margin-left: 28px;
+z-index: 20;
+}
+    
+#profil > #stan > img, #profil > div > #stan > img
+    {
+        width: 150px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 17%;
+    }    
+
+#top > #search-input > input 
+{
+font-size: 1.6em;
+width: 130px;
+height: 40px;
+margin-top: 8px;
+display: block;
+margin-left: 0;
+float: right;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+background-color: white;
+background-image: url(../img/searchicon.png);
+background-position: 10px 8px;
+background-repeat: no-repeat;
+padding: 8px 20px 8px 40px;
+-webkit-transition: width .4s ease-in-out;
+transition: width .4s ease-in-out;    
+}
+    
+#top > #search-input > input:focus
+    {
+        width: 400px;
+    }
+
+
+#top > #search-input > ol  {  
+background-color: #ffffff;   
+margin-top: 0;
+padding-left: 0;
+
+}
+
+#top > #search-input > ol > a > li
+{
+list-style: none;    
+}
+
+#top > #search-input > ol > a > li:hover
+{
+background-color: #f5f5f5;    
+}
+
+#top > #search-input > ol > a > li:first-child
+{
+    margin-top: 5px;
+}
+
+#top > #search-input > ol > a > li > img 
+{
+width: 50px;
+height: 50px;
+margin-top: 7px;
+margin-left: 15px;
+
+}
+
+#top > #search-input > ol > a > li > b
+{
+position: absolute;
+margin-top: 2px;
+margin-left: 7px;
+color: #34495e;
+font-size: 1.5em;
+}
+
+#top > #search-input > ol > a > li > span
+{
+position: absolute;
+margin-top: 20px;
+color: #34495e;
+font-size: 1.2em;
+margin-left: 7px;
+font-family: Quark Light;
+}
+
+
+#top > #aktywnosc {
+    font-size: 1.7em;
+    height: 100%;
+    float: left;
+    padding-left: 70px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Quark Light;
+    z-index: 10;
+}
+
+.clear
+    {
+        clear: both;
+    }    
+
+header > #historia, header > #profil > #historia, header > #profil > #opis, header > #profil > #options, header > #profil > #wyklady
+    {
+        width: 95%;
+        margin-left: 2.5%;
+        background-color: #e5e5e5;
+        margin-bottom: 2.5%;
+        box-sizing: border-box;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+header > #profil > #wyklady > span
+    {
+        padding-left: 40px;
+    }
+    
+
+    
+#historia > table
+    {
+        width: 100%;
+        font-family: 'Quark Light';
+        padding: 10px;
+    }    
+    
+#profil > #opis > h1
+    {
+        float: none;
+        padding-top: 5px;
+    }
+    
+#profil > #opis > p
+    {
+        font-size: 1.5em;
+        font-family: 'Quark Light';
+    }
+    
+#profil > #opis > ul,#profil > #opis > ol     
+    {
+        font-size: 1.5em;
+    }    
+    
+header > #profil > #opis
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        font-family: 'Quark Light';
+    }
+    
+
+#top > .circle-pow
+{
+    border-radius: 20px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.2em;
+    background-color: #858E8F;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-left: 165px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#top > #powiadomienia {
+    font-size: 1.7em;
+    float: left;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Quark Light;
+    cursor: pointer;
+    padding-left: 60px;
+}
+
+#top > .pow-text, #top > #pow-text
+{
+    list-style: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: 350px;
+    font-family: Quark Light;
+    top: 6.1%;
+    right: 20%;
+    display: none;
+    float: right;
+    padding: 2px;
+    z-index: 200;
+}
+
+#top > .pow-text > a > li, #top > .pow-text > li 
+{
+    font-size: 1.3em;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c6cbcf;
+    text-decoration: none;
+}
+
+#top > .pow-text > a 
+{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+}
+
+#top > .pow-text > .all_pow > a 
+{
+    text-decoration: none;
+    color: #000000;    
+    padding-right: 5px;
+    font-size: 1.2em;
+}
+
+#top > .pow-text > .all_pow 
+{
+    padding-top: 5px;
+    width: 100%;
+    text-align: right;
+    border-bottom: 1px solid #c6cbcf;
+    padding: 1px;
+}
+
+#top > .pow-text > span
+{
+    margin-left: 5px;
+    font-size: 1.6em;
+}
+
+
+#top > #profile {
+    float: right;
+    font-size: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-right: 30px;
+}
+
+#cube {
+    width: 95%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+    
+
+#cube > a > .ikona {
+    width: calc(95%/3);
+    height: 100%;
+    float: left;
+    color: white;
+    text-align: center;
+    margin-left: 2.5%;
+}
+    
+#cube > a > .pierwsza-dziecko
+    {
+        margin-left: 0;
+    }
+
+#cube > a > .ikona > i {
+    font-size: 5em;
+    display: block;
+    margin-top: 35px;
+}
+
+#cube > a > .ikona > span {
+    font-size: 2.1em;
+    margin-top: 15px;
+    display: block;
+    font-family: Quark Light;
+}
+
+#profile_menu 
+{
+    display: none;
+    position: absolute;
+    top: 6.2%;
+    right: 3%;
+    padding-top: 10px;
+    padding-right: 70px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    color: #34495e;
+    border-radius: 3px;
+    box-shadow: 3px 2px 4px 0px rgba(50, 50, 50, 0.3);
+}
+
+#profile_menu > li
+{
+    margin-top: 5px;
+}
+
+#profile_menu > li > a 
+{
+    text-decoration: none;
+    color: #34495e ;
+}
+
+#egzamin {
+    width: 95%;
+    background-color: #e5e5e5;
+    margin-left: 2.5%;
+    margin-top: 3%;
+    float: left;
+    font-family: Quark Light;
+    padding-bottom: 15px;
+}
+    
+#egzamin > .day 
+    {
+        width: 50%;
+        float: left;
+        min-height: 270px;
+    }
+    
+#egzamin > #all
+    {
+        width: 100%;
+    }
+
+
+
+
+.center
+    {
+        text-align: center;
+    }
+    
+#agenda {
+    width: 95%;
+    min-height: 285px;
+    background-color: #e5e5e5;
+    margin-left: 2.5%;
+    margin-top: 3%;
+    float: left;
+    font-family: Quark Light;
+}   
+    
+#agenda > .day
+    {
+        width: 100%;
+        border-bottom: 1px #c6cbcf solid;
+        padding-bottom: 20px;
+    }
+    
+#agenda > .day:last-child
+    {
+        border-bottom: none;
+    }
+    
+#agenda > .day > h2, #egzamin > .day > h2
+    {
+    font-size: 1.7em;
+    margin-left: 2%;
+    margin-bottom: 1%;   
+    }
+    
+#agenda > .day > span
+    {
+        font-size: 1.5em;
+        font-family: 'Quark Light';
+        margin-left: 5%;
+    }
+
+#agenda > .day > table
+    {
+        padding-left: 2%;
+        width: 100%;
+    }
+    
+    
+#agenda > .day > table > tbody > tr > td:first-child
+    {
+    width: 7%;
+    }
+    
+    #agenda > .day > table > tbody > tr > td,#agenda > .day > table > tbody > tr > td > a
+    {
+    padding-top: 5px;
+    color: #000000;
+    text-decoration: none;
+    }
+    
+    
+        
+    
+    
+    
+header > #achievements
+    {
+        width: 100%;
+        min-height: 200px;
+        background-color: #858E8F;
+        color: #ffffff;
+        font-family: 'Quark Light';
+        font-size: 3em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+#profil > #achievements, #profil > div > #achievements
+    {
+    width: 100%;
+    height: 150px;
+    background-color: #858E8F;
+    color: #ffffff;
+    font-family: 'Quark Light';
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    margin-top: 3%;
+    }
+    
+#profil > a > #button-profil, #profil > div > a > #button-profil
+    {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-right: 0;
+        color: #ffffff;
+        font-family: 'Quark Light';
+        font-size: 1.7em;
+        background-color: #34495e;
+        float: right;
+    } 
+    
+    
+    
+#profil > #photo
+    {
+        width: 25%;
+        height: 250px;
+        padding: 10px;
+        background-color: #ffffff;
+        float: right;
+        margin-right: 3%;
+        margin-top: 2%;
+    }   
+    
+#profil > #postep 
+    {
+        width: 95%;
+        height: 150px;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+    }
+    
+#profil > #postep > #procent
+    {
+        height: 100%;
+        background-color: #858E8F;
+        display: flex;
+        align-items: center;
+        padding-right: 10px;
+        justify-content: flex-end;
+        font-family: 'Quark Light';
+        font-size: 4em;
+        color: #ffffff;
+    }
+    
+#profil > #time
+    {
+        width: 95%;
+        height: 10px;
+        background-color: #ffffff;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+#profil > #time > #procent
+    {
+        height: 100%;
+        background-color: #5fafe4;
+        float: right;
+    }
+
+
+#profil > h2
+    {
+        font-family: 'Quark Light';
+        font-size: 2.4em;
+        margin-left: 2.5%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    
+#profil > h1, #profil > div > h1
+    {
+    font-size: 2.7em;
+    margin-top: 0%;
+    margin-bottom: 0;
+    color: #5E5E5E;
+    float: left;
+    }
+    
+    
+#profil > #profil-menu
+    {
+        background-color: #ffffff;
+        position: absolute;
+        margin-left: 13%;
+        padding-right: 20px;
+        font-size: 1.7em;
+        border-radius: 2px;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    }
+    
+#profil > a > #upgrade
+    {
+        float: right;
+        margin-right: 2.5%;
+        font-size: 2em;
+        font-family: 'Quark Light';
+        padding: 10px;
+        background-color: #34495e;
+        color: #ffffff;
+    }
+    
+#profil > #profil-menu > li > a
+    {
+        color: #000000;
+        text-decoration: none;
+        font-family: 'Quark Light';
+    }
+    
+#profil > #profil-menu > li 
+    {
+        list-style: none;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 10px;
+    }
+    
+#profil > i
+    {
+        float: left;
+        margin-top: 2.5%;
+        margin-left: 1%;
+        color: #cbd0d5;
+        cursor: pointer;
+    }
+    
+#profil > span > a, #profil > div > span > a
+    {
+        text-decoration: none;
+        color: #000000;
+        font-family: 'Quark Light';
+    }
+    
+#profil > span, #profil > div > span
+    {
+        text-decoration: none;
+        color: #000000;
+        font-size: 1.6em;
+        font-family: 'Quark Light';
+        display: block;
+    }      
+#profil > #stan > img, #profil > div > #stan > img
+    {
+        width: 150px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 25%;
+        
+    }
+    
+#profil > #stan
+    {
+        float: right;
+    }      
+
+#egzamin > .day > a > li
+{
+
+    float: left;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: #858E8F;
+    list-style: none;
+    color: #FFFFFF;
+    width: 100%;
+    font-size: 1.6em;
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-family: Quark Light;
+    width: calc(100% - 15px);
+}
+    
+header > h2
+    {
+        font-family: 'Quark Light';
+        font-size: 2.4em;
+        margin-left: 2.5%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        text-decoration: none;
+    }
+    
+header > h2 > a 
+    {
+        text-decoration: none;
+        color: #000000;
+    }    
+    
+header > #notatki
+    {
+        width: 95%;
+        margin-left: 2.5%;
+        height: 200px;
+        background-color: #e5e5e5;
+        color: #858E8F;
+        font-family: 'Quark Light';
+        font-size: 3em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }    
+    
+#egzamin > .day > a > li > table 
+    {
+        color: #FFFFFF;
+    }    
+    
+#egzamin > .day > table 
+    {
+        margin-left: 4%;
+        font-size: 1.5em;
+    }      
+    
+#egzamin > .day > table > tbody > tr > td > a
+    {
+        text-decoration: none;
+        color: #000000;
+    }    
+    
+#egzamin > .day > table > tbody > tr > td
+    {
+        padding-left: 5px;
+    }
+
+#egzamin > .day > a > li:hover
+{
+    background-color: #374142;
+}
+    
+#egzamin > .day > span
+{
+    font-size: 2em;
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+}    
+
+#postep {
+    width: 30%;
+    height: 25%;
+    background-color: #ffffff;
+    margin-top: 3%;
+    margin-right: 2.5%
+}
+
+#postep > canvas {
+    margin-top: 35px;
+}
+
+#label {
+    width: 95%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#label > .kafel {
+    height: 100%;
+    width: 31.66%;
+    background-color: #858E8F;
+    float: left;
+    margin-right: 2.5%;
+    margin-top: 3%;
+    margin-bottom: 2.5%;
+}
+
+.kafel > i {
+    color: #ffffff;
+    font-size: 7em;
+    display: block;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.kafel > span {
+    color: #ffffff;
+    margin-top: 10px;
+    display: block;
+    font-family: Quark Light;
+    font-size: 1.9em;
+}
+
+#label > .ostatnikafel {
+    margin-right: 0;
+}
+
+
+header > #text {
+    width: 50%;
+    margin-left: 5%;
+    min-height: 74%;
+    background-color: #ffffff;
+    float: left;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+
+header > #text[class="all-page"],header > #text[class="all-page show"]
+{
+    width: 90%;    
+}
+
+header > #text[class="all-page show"] > table, header > #text[class="all-page show"] > div > form > table
+{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+    border-spacing: 0;
+}
+    
+header > #text[class="all-page show"] > div > table    
+    {
+        margin-left: 40px;
+    }
+    
+
+header > #text[class="all-page show"] > span {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    font-size: 2.2em;
+    font-family: Quark Light;
+
+}
+
+header > #text[class="all-page show"] > table > thead > tr > td, header > #text[class="all-page show"] > div > form > table > thead > tr > td,header > #text[class="all-page show"] > div  > table > thead > tr > td
+{
+    color: #5E5E5E;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+
+header > #text > table > tbody > tr:hover
+{
+  background-color: #f5f5f5;   
+}
+
+header > #text > form > table > tbody > tr > td > a > i
+{
+  color: #5E5E5E;
+}
+    
+
+.wyklad-obecnosc
+{
+background-color: #34495e;
+color: #ffffff;
+width: 300px;
+margin-left: 5px;
+}
+
+.wyklad-obecnosc > div
+{
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+font-size: 1.6em;
+border-bottom: 1px solid #fff;
+}
+
+header > #text[class="all-page show"] > table > tbody > tr:hover
+{
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+header > #text[class="all-page show"] > table > tbody > tr > td, header > #text[class="all-page show"] > div > form > table > tbody > tr > td,header > #text[class="all-page show"] > div > table > tbody > tr > td , #text > fieldset > div > table > tbody > tr > td
+{
+    padding: 9px 10px;
+    border-bottom: 1px #f5f5f5 solid;
+    font-size: 0.9em;
+}
+
+#text > h2, #text > form > h2, #text > div > h2, #text > fieldset > div > h2   {
+    font-size: 2.4em;
+    color: #5E5E5E;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+    
+#text > h2 > a 
+    {
+        color: #5E5E5E;
+        text-decoration: none;
+    }    
+
+#text > p, #text > form > p {
+    font-size: 1.6em;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 0px;
+    font-family: 'Arial';
+}
+
+#text > textarea, #text > form > textarea
+{
+    margin-left: 30px;
+    margin-right: 30px;
+    width: calc(100% - 60px);
+    height: 150px;
+}
+
+#text > h3 , #text > form > h3 {
+    font-size: 1.8em;
+    color: #5E5E5E;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+#text > h3 > a, #text > form > h3 > a{
+    text-decoration: none;
+    color: #5E5E5E;
+}
+
+#text > table, #text > form > table {
+    margin-left: 50px;
+    margin-top: 20px;
+    border-spacing: 0;
+}
+
+#text > i
+{
+    text-align: center;
+    display: block;
+}
+    
+#moj-achievements
+    {
+        width: 20%;
+        height: 50px;
+        background-color: #99cbee;
+        color: #ffffff;
+        text-decoration: none;
+        float: right;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8em;
+        
+    }
+    
+#moj-achievements:hover
+    {
+        background-color: #5fafe4;
+       -webkit-transition: background-color 1000ms linear;
+        -moz-transition: background-color 1000ms linear;
+        -o-transition: background-color 1000ms linear;
+        -ms-transition: background-color 1000ms linear;
+        transition: background-color 1000ms linear;
+    }    
+    
+    
+#info-instruktor
+    {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: -2%;
+    }
+    
+header > #text > span 
+    {
+        text-align: center;
+        display: block;
+        font-size: 2em;
+        margin-top: 20px;
+        font-family: 'Quark Light';
+    }    
+    
+#info-instruktor > table > tbody > tr > td
+    {
+        padding-left: 20px;
+        font-size: 1.1em;
+        font-family: 'Quark Light';
+    }
+    
+#friends
+    {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 400px;
+        background-color: #e5e5e5;
+        margin-bottom: 2.5%;
+        font-family: 'Quark Light';
+    }
+    
+#friends > span
+    {
+        text-align: center;
+        display: block;
+        font-size: 2em;
+        font-family: 'Quark Light';
+        padding: 20px;
+    }    
+
+#friends > table
+    {
+        width: 100%;
+        padding: 5px;
+    }
+    
+#friends > table > tbody > tr > td
+    {
+        padding: 5px;
+    }
+    
+
+#friends > table > tbody > tr > td > a 
+    {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    
+#friends > table > tbody > tr > td > img
+    {
+        width: 35px;
+        margin-left: 5px;
+    }
+    
+
+#add_obecnosc
+{
+    margin-left:  50px;
+}
+    
+#profil > .profil-details 
+    {
+        float: left;
+        width: 65%;
+        margin-top: 2%;
+        margin-left: 2.5%;
+    }  
+    
+#profil > .temat-details 
+    {
+        float: left;
+        width: 95%;
+        margin-top: 2%;
+        margin-left: 2.5%;
+    }      
+    
+    
+#text > table > tbody > tr > td,    #text > form > table > tbody > tr > td,  #text > div > table > tbody > tr > td, #text > fieldset > div > table > tbody > tr > td
+{
+    padding-right: 20px;
+}
+
+#text > table > tbody > tr, #text > form > table > tbody > tr, #text > div > form > table > tbody > tr, #text > div > table > tbody > tr , #text > fieldset > div > table > tbody > tr {
+    height: 22px;
+    font-family: Arial;
+}
+
+#text > table > tbody > tr > td > a, #text > div > table > tbody > tr > td > a , #text > fieldset > div > table > tbody > tr > td > a
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+header > h1 {
+    font-size: 2.7em;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-bottom: 2%;
+    color: #5E5E5E;
+}
+    
+header > h1[class="add"]
+    {
+        float: left;
+    }    
+    
+header > a > #button_add
+    {
+        float: right;
+        margin-top: 2%;
+        padding: 10px 20px;
+        background-color: #34495e;
+        color: #ffffff;
+        font-size: 1.8em;
+        margin-right: 5%;
+        font-family: 'Quark Light';
+    }    
+
+header > .label {
+    width: 40%;
+    height: 19%;
+    float: right;
+    margin-right: 2.5%;
+    margin-bottom: 3%;
+}
+
+.label > a > .kafel,.label >  .kafel {
+    width: 45%;
+    height: 100%;
+    float: left;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.label > a > .ostatnikafel, .label > .ostatnikafel {
+    margin-right: 0%;
+}
+
+.hexagon {
+    position: relative;
+    width: 32px;
+    height: 18.48px;
+    margin: 9.24px 0;
+    background-image: url(../img/prifile-pic.png);
+    background-size: auto 36.9504px;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.hexTop,
+.hexBottom {
+    position: absolute;
+    z-index: 1;
+    width: 22.63px;
+    height: 22.63px;
+    overflow: hidden;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background: inherit;
+    left: 4.69px;
+}
+
+
+/*counter transform the bg image on the caps*/
+
+.hexTop:after,
+.hexBottom:after {
+    content: "";
+    position: absolute;
+    width: 32.0000px;
+    height: 18.475208614068027px;
+    -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-9.2376px);
+    -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-9.2376px);
+    transform: rotate(45deg) scaleY(1.7321) translateY(-9.2376px);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background: inherit;
+}
+
+.hexTop {
+    top: -11.3137px;
+}
+
+.hexTop:after {
+    background-position: center top;
+}
+
+.hexBottom {
+    bottom: -11.3137px;
+}
+
+.hexBottom:after {
+    background-position: center bottom;
+}
+
+.hexagon:after {
+    position: absolute;
+    top: 0.0000px;
+    left: 0;
+    width: 32.0000px;
+    height: 18.4752px;
+    z-index: 2;
+    background: inherit;
+}
+
+#profile > span > a, #profile > span > a > span
+{
+    color: #95a0aa;
+    margin-right: 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}    
+
+
+
+#profile  > i {
+    color: #cbd0d5;
+    cursor: pointer;
+}
+    
+    
+#profile > i#powiadomienia, #profile > i#news  
+    {
+        font-size: 30px;
+        margin-right: 15px;
+        color: #999999;
+        cursor: pointer;
+    }
+
+input,select
+{
+    width: 200px;
+    padding: 2px;
+    margin-top: 2px;
+    margin-left: 5px;
+    height: 24px;
+}
+
+input[type="submit"]
+{
+    padding: 5px;
+    background-color: #2d3e50;
+    color: #ffffff;
+    outline: 0;
+    border: 0;
+    box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.75);
+}
+    
+input[disabled="disabled"]
+    {
+        background: none;
+        border: none;
+        color: #000000;
+        font-size: 1.05em;
+    }    
+
+.submit-kafel
+{
+    width: 227px;
+    height: 176px;
+    position: absolute;
+    margin: 0;
+    box-shadow: 0 0 0 0;
+    padding: 0;
+    margin-left: -114px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#help
+{
+    position: absolute;
+    background-color: black;
+    color: black;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+}
+
+#help:hover 
+{
+    width: auto;
+    color: white;
+    height: auto;
+}
+
+.select_data
+{
+    width: 100px;
+}
+
+.select_all_data
+{
+    width: auto;
+}
+
+#flitr_text
+{
+    background-color: #34495e;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#flitr_text > div
+{
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 1.4em;
+}
+
+
+#flitr_text > div > b 
+{
+    font-size: 1.2em;
+    display: block;
+    padding-top: 10px;
+}
+
+
+
+
+
+#flitr_text:hover
+{
+    width: auto;
+    height: auto;
+    display: block;
+
+}
+
+#flitr_text > i
+{
+color: white;
+padding: 1px;
+}
+
+#flitr_text:hover > i
+{
+    display: none;
+}
+
+#flitr_text:hover > div
+{
+    display: block;
+}
+
+#flitr_text > div > input 
+{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+#flitr_text > div > input:focus
+{
+    outline: 0;
+} 
+    
+#paginator
+    {
+        float: right;
+        margin-right:50px;
+        margin-top: 20px;
+    }
+    
+#paginator > li
+    {
+        list-style: none;
+        font-size: 2em;
+        font-family: 'Quark Light';
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+    }
+    
+#paginator > li > a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    
+#paginator > li.active > a
+    {
+        color: white;
+    }
+    
+#paginator > li.active
+    {
+        background-color: #5fafe4;
+    }    
+    
+ /* PODGLĄD JAZD    */
+    
+    
+#jazda > .jazda-details 
+{
+    float: left;
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 2.5%;
+}    
+    
+    
+ #jazda > .jazda-details > h1
+{
+    font-size: 2.7em;
+    width: 65%;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #5E5E5E;
+    float: left;
+}   
+    
+    
+#jazda > .jazda-details > span
+{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.6em;
+    margin: 2px;
+    font-family: 'Quark Light';
+    display: block;
+}     
+    
+#jazda > .jazda-details > span > a
+{
+    color: #000000;
+    text-decoration: none;
+}
+    
+ #jazda > .jazda-details > #button-profil
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 0;
+    color: #ffffff;
+    font-family: 'Quark Light';
+    font-size: 2em;
+    background-color: #34495e;
+    float: right;
+    cursor: pointer;
+}   
+    
+#jazda > .jazda-details > #time
+{
+    float: right;
+    font-size: 2.5em;
+    font-family: 'Quark Light';
+    margin-right: 20px;
+    margin-top: 8px;
+}
+    
+#jazda > h2
+{
+    font-family: 'Quark Light';
+    font-size: 2.4em;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    text-decoration: none;
+    color: #000000;
+}
+#jazda > #progres
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+    
+#jazda > #progres > .page
+{
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    
+#jazda > #progres > .page > h2
+{
+    font-size: 2em;    
+    font-family: 'Quark Light';
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+    
+#jazda > #progres > .page > table
+{
+    width: calc(100% - 20px);
+    font-family: 'Quark Light';
+    margin-left: 20px;
+}    
+    
+#jazda > #progres > .page > table > tbody > tr > td
+    {
+    width: 50%;    
+    padding: 2px;
+    }
+    
+#jazda > #notatka
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}   
+    
+}
